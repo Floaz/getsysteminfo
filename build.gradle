@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin:'application'
 
 
-sourceCompatibility = '1.7'
+sourceCompatibility = '1.5'
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 // NetBeans will automatically add "run" and "debug" tasks relying on the
